@@ -12,4 +12,8 @@ public class JenkinsController {
         return "welcome to jenkins ";
     }
     //added comment for maven
+    @GetMapping("hello")
+    public String hello(){
+        return "hello nageena...";
+    }
 }
