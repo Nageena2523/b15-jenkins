@@ -16,4 +16,8 @@ public class JenkinsController {
     public String hello(){
         return "hello nageena...";
     }
+    @GetMapping("docker")
+    public String docker(){
+        return "DOCKER API...";
+    }
 }
